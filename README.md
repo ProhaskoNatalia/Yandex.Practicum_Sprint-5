@@ -17,6 +17,7 @@
 
 Ответ:
 
+
 SELECT funding_total
        FROM company
            WHERE category_code LIKE 'news'

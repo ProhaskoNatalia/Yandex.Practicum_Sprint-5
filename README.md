@@ -18,11 +18,12 @@
 Ответ:
 
 
-SELECT funding_total
+#SELECT funding_total
        FROM company
            WHERE category_code LIKE 'news'
            AND country_code LIKE 'USA'
        ORDER BY funding_total DESC
+
 
 Задание: 3/8:
 

@@ -15,7 +15,9 @@
 
 Отобрази количество привлечённых средств для новостных компаний США. Используй данные из таблицы company. Отсортируй таблицу по убыванию значений в поле funding_total.
 
-Ответ: SELECT funding_total
+Ответ:
+
+SELECT funding_total
        FROM company
            WHERE category_code LIKE 'news'
            AND country_code LIKE 'USA'
